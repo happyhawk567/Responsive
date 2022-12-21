@@ -1,17 +1,3 @@
-
- html {
-  margin: 0;
-  padding: 0;
-  font-size: 62.5%;
-}
-
-@viewport {
-  width: device-width;
-  zoom: 1.0}
-
-@-ms-viewport {
-  width: device-width}
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -19,11 +5,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }
 
 .App {
@@ -104,8 +85,7 @@ background-color: #911F24;
 }
 
 .nav-logo {
-  height: 1rem;
-
+  height: 4rem;
 }
 
 @media only screen and (max-width: 768px) {
@@ -184,7 +164,7 @@ p {
   padding-right: 3rem;
   padding-left: 3rem;
   color: black;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .button-area{
@@ -240,7 +220,7 @@ button:hover{
 }
 
 li {
-  margin-left: 0.5rem;
+  margin-left: 2rem;
 }
 
 li span {
@@ -256,21 +236,21 @@ li span {
 .footer{
   display:flex;
   background-color: #BF706C;
-  padding: 2rem 3rem;
 }
 
-
-
-.footer-icons{
+.icon-section{
+  padding: 1rem;
+  padding-top: 2rem;
+  position: absolute;
+  right:0px;
+}
+.icon{
   height: 2rem; 
-  width: 2rem; 
-  justify-content: right;
-  position: flex-end;
   padding-right: 0.5rem;
   padding-left: 0.5rem;
+  padding-top: 0.5rem;
 }
 
-.footer-icons:hover{
+.icon:hover{
   height: 2.5rem; 
-  width: 2.5rem; 
 }
