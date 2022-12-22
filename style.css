@@ -236,6 +236,7 @@ li span {
 .footer{
   display:flex;
   background-color: #BF706C;
+  height: 6rem;
 }
 
 .icon-section{
